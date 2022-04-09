@@ -1,0 +1,34 @@
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    width: screen;
+    height: screen;
+}
+
+.card {
+    margin-top: 5rem;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 1rem;
+    display: grid;
+    width: 40rem;
+    height: 5rem;
+    padding: .4rem;
+    grid-template-columns: 5rem, 10rem 2rem;
+    justify-items: center;
+    background: linear-gradient(to left, #00AAFF, #005599);
+}
+
+card-item {
+    border: none;
+    background: none;
+    color:white;
+}
+card-item.button {
+    background: none;
+    color: red;
+}
